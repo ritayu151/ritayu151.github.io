@@ -1,0 +1,54 @@
+ /*CSS DOCUMENT*/
+
+
+/* Title*/
+ h1{
+    font-size: 4em;
+     color: #435C73;
+     margin-left: .5em; 
+ }
+
+
+/* Main Menu*/
+h2{
+    font-size: 2em;
+    font-family: sans-serif;  
+    color: #778BA6;
+}
+
+/* Dish Types*/
+ h3{
+    text-transform: uppercase;
+    color: #F2C288;
+}
+
+
+/* Dishes*/
+h4{
+    font-family: sans-serif; 
+    margin-top: 1em;
+    color: #435C73;    
+}
+
+
+p{
+    font-family: sans-serif;
+    color: (10,10,10);
+    margin-bottom: .5em;
+    color: #778BA6;
+    text-transform: lowercase;
+     
+      
+}
+.price{
+    font-weight: 900;
+    font-size: .8em; 
+}
+
+ul{
+    list-style:circle;
+}
+
+body{
+    margin-left: 2.5em;
+}
