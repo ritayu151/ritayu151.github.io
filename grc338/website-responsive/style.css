@@ -1,0 +1,153 @@
+/* CSS DOCUMENT*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+img {
+    width: 100%;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    padding-top: 0.25em;
+}
+
+img.logo {
+    max-width: 30%;
+    width: 35%;
+    margin-bottom: 0;
+    padding-bottom:0;
+}
+        
+div.container{
+    max-width:60em;
+    margin:auto;
+}
+
+body{
+    background-color: #F2F2F2;
+    color: #080E33; 
+     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #8C837B;
+}
+    
+nav{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 3.5em;
+    text-align:center;
+    padding: 0em 0.25em .0em 0.25em;  
+    border-bottom-style: dashed;
+    width: 70%;
+}
+
+nav ul{
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0.5em;   
+}
+
+nav ul li a{
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size:0.9em;
+    color:#D9A796;
+}
+
+div.introimage{
+   text-align: center;
+}
+
+ul li{
+    list-style:none;
+}
+
+div.menu{
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+ div.abouttext, div.location{
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+div.classicteas, div.signitures, div.espresso, div.food{
+   max-width:30em;
+    margin: auto; 
+    padding-bottom: 1em;
+}
+
+div.signitures, div.espresso, div.food{
+     border-top-style: dashed;
+     border-top-color:#D9A796;
+}
+
+@media only screen and (min-width:45em){
+    div.classicteas, div.signitures {
+        width: 40%;
+        float: left;
+        margin-right: 1em;
+        padding-bottom: 2em;
+        border:none;
+        
+    }
+    
+    div.espresso, div.food{
+         width: 40%;
+        float: left;
+        margin-right: 1em;
+        padding-bottom: 2.5em;
+        border-top-style: dashed;
+        border-top-color:#D9A796; 
+    }    
+}
+
+h1{
+    text-align: center;
+    font-size:3em;
+    font-family: 'Oswald',sans-serif;
+    font-weight: 800;
+    margin-bottom: 0;     
+}
+
+h2{
+    text-transform: uppercase; 
+    padding-top: 1.25em;
+    margin-bottom: 0;
+    padding-left: 0.5em;
+    letter-spacing: 0.1em;
+    font-family: 'Oswald',sans-serif;
+    font-weight: 600;
+    color:#D9A796;
+  
+}
+
+h3{
+   font-family: 'Montserrat', sans-serif;
+    font-weight: 500; 
+    margin-bottom: 0;   
+}
+
+h1, h3{
+    color: #58433C;
+}
+
+h2, h3, p{
+    text-align: center;
+   
+}
+p{
+    margin: 0;
+}
